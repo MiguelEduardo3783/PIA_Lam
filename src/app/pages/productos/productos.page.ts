@@ -13,17 +13,17 @@ export class ProductosPage implements OnInit {
     {
       nombre: "Papa",
       imagen: "assets/Papa.jpg",
-      sonido: ""
+      sonido: "assets/Papa.mp3"
     },
     {
       nombre: "Frijol",
       imagen: "assets/Frijol.jpg",
-      sonido: ""
+      sonido: "assets/Frijol.mp3"
     },
     {
       nombre: "Maíz",
       imagen: "assets/Maíz.jpg",
-      sonido: ""
+      sonido: "assets/Maíz.mp3"
     },
   ]
 
@@ -31,17 +31,17 @@ export class ProductosPage implements OnInit {
     {
       nombre: "Melón",
       imagen: "assets/Melón.jpg",
-      sonido: ""
+      sonido: "assets/Melón.mp3"
     },
     {
       nombre: "Sandía",
       imagen: "assets/Sandía.jpg",
-      sonido: ""
+      sonido: "assets/Sandía.mp3"
     },
     {
       nombre: "Naranjas",
       imagen: "assets/naranjas.jpg",
-      sonido: ""
+      sonido: "assets/Naranja.mp3"
     },
   ]
 
