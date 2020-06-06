@@ -1,0 +1,53 @@
+<app-header titulo="PRODUCTOS"></app-header>
+
+<ion-content>
+  <ion-card>
+    <ion-row>
+      <ion-col col-4>
+        <ion-card-header>Terreno 1</ion-card-header>
+      </ion-col>
+    </ion-row>
+  </ion-card>
+
+  <ion-grid Fixed>
+    <ion-row>
+      <ion-col *ngFor= "let vegetal of vegetales1">
+      <ion-card>
+        <ion-card-header>
+          {{ vegetal.nombre }}
+        </ion-card-header>
+        <ion-button (click)= "audio(vegetal)">
+          <ion-icon slot = "icon-only" name= "play-outline"></ion-icon>
+        </ion-button>
+        <ion-img [src]= "vegetal.imagen"></ion-img>
+      </ion-card>
+      </ion-col>
+    </ion-row>
+</ion-grid>
+
+  <ion-card>
+    <ion-row>
+      <ion-col col-4>
+        <ion-card-header>Terreno 2</ion-card-header>
+      </ion-col>
+    </ion-row>
+  </ion-card>
+  <ion-grid Fixed>
+    <ion-row>
+      <ion-col *ngFor= "let vegetable of vegetales2">
+      <ion-card>
+        <ion-card-header>
+          {{ vegetable.nombre }}
+        </ion-card-header>
+        <ion-button (click)= "audio(vegetable)">
+          <ion-icon slot = "icon-only" name= "play-outline"></ion-icon>
+        </ion-button>
+        <ion-img [src]= "vegetable.imagen"></ion-img>
+      </ion-card>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>
+
+
+<app-footer></app-footer>
